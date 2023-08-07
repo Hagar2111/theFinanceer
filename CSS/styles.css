@@ -1,0 +1,163 @@
+/* general */
+.btn{
+    background: rgb(6, 6, 161);
+    color: #fff;
+}
+
+/* index Styling Starts */
+
+/* Navbar styling starts  */
+nav{
+    z-index: 99;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar .nav-item .nav-link,
+.navbar .nav-item .active{
+    line-height: 50%;
+    /* color: #fff; */
+}
+.navbar .nav-item .active{
+    text-decoration: underline;
+}
+/* Navbar styling ends  */
+
+
+/* Carousel Slide  */
+
+.carousel-inner{
+    position: relative;
+    z-index: 1;
+}
+/* The gray layer on the carousel  */
+
+.layer{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.46);
+    inset: 0;
+    z-index: 2;
+}
+.carousel-item {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.carousel-item:first-of-type{
+    background-image: url('../imgs/header.jpg');
+}
+.carousel-item:nth-of-type(2){
+    background-image: url('../imgs/Finance-About.jpg');
+}
+.carousel-item:last-of-type{
+    background-image: url('../imgs/Finance-training3.jpeg ');
+}
+.carousel-item div{
+    z-index: 3;
+}
+.carousel-item div {
+    margin: 0;
+    color: white;
+}
+.underline {
+    text-decoration: none; 
+    position: relative; 
+}   
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -2px; 
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 15%;
+    background: rgb(6, 6, 161);
+}
+
+.carousel-item a i{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Cards row section starts  */
+
+.cards .card{
+    background-color: rgb(249 246 246);
+}
+
+/* Cards row section ends  */
+
+/* Upcomig courses start  */
+.coming-courses{
+    position: relative;
+    background-image: url('../imgs/Finance-About.jpg');
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(90%);
+    padding: 9rem 0;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+.coming-courses .layer{
+    background-color: rgba(6, 6, 161, 0.61);
+}
+.coming-courses .container {
+    position: sticky;
+    z-index: 4;
+}
+/* Upcomig courses ends  */
+
+/* updates section starts */
+.updates .card{
+    background-color: rgb(249 246 246);
+}
+.updates .card-img-top{
+    height: 18rem;
+    object-fit: cover;
+}
+.updates .card-body a i{
+    color: rgb(6, 6, 161);
+}
+/* updates section ends */
+
+/* prograph section starts */
+.prograph{
+    position: relative;
+    background-image: url('../imgs/header.jpg');
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    filter: grayscale(90%);
+    padding: 9rem 0;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+}
+.prograph .layer{
+    background-color: rgba(6, 6, 161, 0.61);
+}
+.prograph .container {
+    position: sticky;
+    z-index: 4;
+}
+/* prograph section ends */
+
+/* index Styling Ends */
+
+/*About & Contact Componant*/
+/*Styling header image */
+
+.header-img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Footer Starts */
+a{
+    color: #000000d2;
+    font-size: 1.4 rem;
+}
+
+/* Footer Ends */
